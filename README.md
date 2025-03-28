@@ -4,6 +4,8 @@
 git clone https://github.com/deepakpradhan10242/Backend.git
 
 
+cd Backend
+
 
 -->after cloning run below command line<--
 
@@ -35,3 +37,24 @@ SENDER_EMAIL = "binbag@gmail.com"
 
 
 node index.js
+
+
+-> POSTMAN apis <-
+
+
+POST request
+
+for registeration - http://localhost:8080/api/auth/register
+
+for login - http://localhost:8080/api/auth/login
+
+for logout - http://localhost:8080/api/auth/logout
+
+GET request
+
+for fetching userdata - http://localhost:8080/api/user/data
+
+for profile update - http://localhost:8080/api/user/update
+
+
+
